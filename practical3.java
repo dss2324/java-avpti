@@ -3,3 +3,4 @@ public class practical3 {
     {
         System.out.println("my name is darshana");
     }
+}
