@@ -1,26 +1,22 @@
 public class practical6 {
-<<<<<<< HEAD
-    public class shape{
-        double area(float radius)
-        {
-            return 3.14*radius*radius;
+    static class student {
+        String info(String name){
+             return (name);
         }
-         double area(float length, float width)
-         {
-            return length*width;
-         }
+        int enroll;
 
     }
-    public static void main(String[] args)
-    {
-        shape s1=new shape();
-        
-        shape s2=new shape();
+    public static void main(String[] args) {
+        student s1=new student();
+        student s2=new student();
+        student s3=new student();
+        String name1=s1.info("darshana");
+        String name2=s2.info("dev");
+        String name3=s3.info("harshit");
 
-=======
-    public static void main(String[] args)
-    {
-        
->>>>>>> 0f4906934843fc93d591c060d4e93ff5ceca4794
+        System.out.println(name1);
+        System.out.println(name2);
+        System.out.println(name3);
+
     }
 }
