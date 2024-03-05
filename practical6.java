@@ -17,6 +17,7 @@ public class practical6 {
         System.out.println(name1);
         System.out.println(name2);
         System.out.println(name3);
-
+        // int a=(int)5.48f;
+        // System.out.println(a);
     }
 }
